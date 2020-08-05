@@ -9,8 +9,11 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:background="#000000"
         android:text="Sheana Online"
-        android:textColor="@color/colorTextIcons"/>
+        android:textColor="@color/colorTextIcons"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
 
     <Button

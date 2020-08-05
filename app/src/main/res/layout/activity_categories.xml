@@ -3,15 +3,18 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/imageViewCategory"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/ps44018" />
 
     <TextView
+        android:id="@+id/textViewCat"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Register"
+        android:textColor="#FFFFFF"
         android:textSize="40sp"
         android:textStyle="bold" />
 

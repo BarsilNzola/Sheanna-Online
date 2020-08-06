@@ -36,4 +36,21 @@
         android:background="@drawable/rectangle"
         android:padding="5dp" />
 
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="160dp"
+        android:textColor="@color/colorTextIcons"
+        android:text="Email:" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/rectangle"
+        android:padding="5dp" />
+
 </RelativeLayout>

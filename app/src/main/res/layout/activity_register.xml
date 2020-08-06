@@ -53,4 +53,66 @@
         android:background="@drawable/rectangle"
         android:padding="5dp" />
 
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="240dp"
+        android:textColor="@color/colorTextIcons"
+        android:text="Phone Number:" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/rectangle"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/textViewPwd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="320dp"
+        android:textColor="@color/colorTextIcons"
+        android:text="Password:" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/rectangle"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/textViewCpwd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/colorTextIcons"
+        android:text="Confirm Password:" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/rectangle"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:text="Register"
+        android:textStyle="bold"
+        android:background="@drawable/btn_rounded"/>
+
 </RelativeLayout>

@@ -14,10 +14,11 @@
         android:id="@+id/textViewRegister"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="30dp"
         android:layout_marginLeft="20dp"
-        android:textColor="@color/colorTextIcons"
-        android:text="Enter Your Details" />
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/alex_brush"
+        android:text="Enter Your Details"
+        android:textColor="@color/colorTextIcons" />
 
     <TextView
         android:id="@+id/textViewName"
@@ -29,12 +30,15 @@
         android:text="Name:" />
 
     <EditText
+        android:id="@+id/editTextName"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="100dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
         android:background="@drawable/rectangle"
-        android:padding="5dp" />
+        android:padding="5dp"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/textViewEmail"
@@ -48,10 +52,11 @@
     <EditText
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="180dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
         android:background="@drawable/rectangle"
-        android:padding="5dp" />
+        android:padding="5dp"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/textViewPhone"
@@ -65,10 +70,11 @@
     <EditText
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="260dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
         android:background="@drawable/rectangle"
-        android:padding="5dp" />
+        android:padding="5dp"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/textViewPwd"
@@ -82,10 +88,11 @@
     <EditText
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="340dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="340dp"
         android:background="@drawable/rectangle"
-        android:padding="5dp" />
+        android:padding="5dp"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/textViewCpwd"
@@ -99,10 +106,11 @@
     <EditText
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="420dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp"
         android:background="@drawable/rectangle"
-        android:padding="5dp" />
+        android:padding="5dp"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/getStartedButton"

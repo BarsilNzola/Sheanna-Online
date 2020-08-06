@@ -26,7 +26,7 @@ public class MainActivityTest {
     @Test
     public void validateTextViewContent(){
         TextView textViewTitle = activity.findViewById(R.id.textViewTitle);
-        assertTrue("Sheanna Online".equals(textViewTitle.getText().toString()));
+        assertTrue("Sheana Online".equals(textViewTitle.getText().toString()));
     }
 
     @Test
